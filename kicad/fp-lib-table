@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name keyswitches)(type KiCad)(uri "F:/Program/kicad bibliotek/Button_Switch_Keyboard.pretty")(options "")(descr ""))
+)
