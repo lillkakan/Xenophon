@@ -4521,8 +4521,5 @@ if (!$using_customizer) {
 }
 
 key_profile(key_profile, row) legend(legend) {
-  for(y=[0:4]) {
-    translate_u(-0.4,y) 1_5u() dcs_row(4-y) cherry() key();
-    }
-  
+  translate_u(0,0) 1_5u() dcs_row(5) cherry() key();
 }
