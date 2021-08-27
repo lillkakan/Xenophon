@@ -1,6 +1,6 @@
-update=08/08/21 18:49:14
+update=08/09/21 18:23:56
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -58,7 +58,7 @@ CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.05
 CourtyardLineWidth=0.05
-OthersLineWidth=0.15
+OthersLineWidth=0.05
 OthersTextSizeV=1
 OthersTextSizeH=1
 OthersTextSizeThickness=0.15
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
