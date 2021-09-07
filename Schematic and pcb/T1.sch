@@ -503,25 +503,6 @@ F 3 "~" H 2450 2700 50  0001 C CNN
 	1    2450 2700
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3150 1100
-Wire Wire Line
-	3150 1100 3250 1100
-Connection ~ 3050 1100
-Wire Wire Line
-	3050 1100 3150 1100
-Wire Wire Line
-	3050 1100 2950 1100
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 61114792
-P 3150 2900
-F 0 "U1" H 3150 1011 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 3150 920 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3150 2900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3150 2900 50  0001 C CNN
-	1    3150 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 611B1CD5
@@ -538,7 +519,6 @@ Wire Wire Line
 Connection ~ 4400 5950
 Wire Wire Line
 	3050 4700 3150 4700
-Connection ~ 3150 4700
 $Comp
 L power:VCC #PWR08
 U 1 1 611BAD62
@@ -971,12 +951,6 @@ Wire Wire Line
 	2500 4250 2500 4650
 Wire Wire Line
 	2500 4850 2500 5350
-Wire Wire Line
-	2550 2000 2550 2200
-Connection ~ 2550 2200
-Wire Wire Line
-	7300 2050 7300 2250
-Connection ~ 7300 2250
 $Comp
 L Device:C_Small C12
 U 1 1 61480EE6
@@ -998,4 +972,29 @@ Wire Wire Line
 	7800 3800 7800 3400
 Wire Wire Line
 	7800 3800 7800 4750
+Wire Wire Line
+	3050 1100 2950 1100
+Connection ~ 3050 1100
+Connection ~ 3150 4700
+Wire Wire Line
+	3050 1100 3150 1100
+Wire Wire Line
+	3150 1100 3250 1100
+Connection ~ 3150 1100
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 61114792
+P 3150 2900
+F 0 "U1" H 3150 1011 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3150 920 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3150 2900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3150 2900 50  0001 C CNN
+	1    3150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1450 7800 1450
+Wire Wire Line
+	7800 1450 7800 3300
+Connection ~ 7800 3300
 $EndSCHEMATC
