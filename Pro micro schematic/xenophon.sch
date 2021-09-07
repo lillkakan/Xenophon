@@ -28,7 +28,7 @@ $Sheet
 S 4650 2300 850  1350
 U 6107657D
 F0 "leftButtonSheet" 50
-F1 "file6107657C.sch" 50
+F1 "leftButtonSheet.sch" 50
 F2 "row1" I L 4650 2400 50 
 F3 "row2" I L 4650 2500 50 
 F4 "row3" I L 4650 2600 50 
@@ -197,7 +197,7 @@ $Sheet
 S 9800 2400 850  1350
 U 6116737E
 F0 "rightButtonSheet" 50
-F1 "file6116737D.sch" 50
+F1 "rightButtonSheet.sch" 50
 F2 "row1" I L 9800 2500 50 
 F3 "row2" I L 9800 2600 50 
 F4 "row3" I L 9800 2700 50 

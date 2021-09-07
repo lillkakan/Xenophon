@@ -8,7 +8,7 @@
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    qmkbuilder
-#define PRODUCT         Fasth T1
+#define PRODUCT         xenophon
 
 /* key matrix size */
 #define MATRIX_ROWS 10

@@ -72,7 +72,7 @@ $Sheet
 S 4800 1850 850  1350
 U 6107657D
 F0 "leftButtonSheet" 50
-F1 "file6107657C.sch" 50
+F1 "leftButtonSheet.sch" 50
 F2 "row1" I L 4800 1950 50 
 F3 "row2" I L 4800 2050 50 
 F4 "row3" I L 4800 2150 50 
@@ -90,7 +90,7 @@ $Sheet
 S 9550 1900 850  1350
 U 6116737E
 F0 "rightButtonSheet" 50
-F1 "file6116737D.sch" 50
+F1 "rightButtonSheet.sch" 50
 F2 "row1" I L 9550 2000 50 
 F3 "row2" I L 9550 2100 50 
 F4 "row3" I L 9550 2200 50 

@@ -1,6 +1,6 @@
-# Fasth-T1
+# Xenophon
 
-Fasth T1 keyboard.
+Xenophon keyboard.
 
 ## keymap
 

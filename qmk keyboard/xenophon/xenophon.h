@@ -1,5 +1,5 @@
-#ifndef fasth_t1_H
-#define fasth_t1_H
+#ifndef xenophon_H
+#define xenophon_H
 
 #include "quantum.h"
 

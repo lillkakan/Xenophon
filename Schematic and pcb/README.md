@@ -1,8 +1,8 @@
-# Fasth T1
+# Xenophon
 
 ## PCB
 
-Fasth T1 keyboard.
+Xenophon keyboard.
 
 usb c connections right side
 
