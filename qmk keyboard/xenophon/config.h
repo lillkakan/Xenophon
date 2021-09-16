@@ -7,7 +7,7 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    qmkbuilder
+#define MANUFACTURER    @jesperfasth
 #define PRODUCT         xenophon
 
 /* key matrix size */
@@ -20,17 +20,12 @@
 #define UNUSED_PINS
 
 /* Define spit attributes */
+#define MASTER_LEFT
 #define SPLIT_HAND_PIN B0
 #define SOFT_SERIAL_PIN E6
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION ROW2COL
-
-/* number of backlight levels */
-
-// #ifdef BACKLIGHT_PIN
-// #define BACKLIGHT_LEVELS 3
-// #endif
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
@@ -48,14 +43,5 @@
 
 /* prevent stuck modifiers */
 #define PREVENT_STUCK_MODIFIERS
-
-
-#ifdef RGB_DI_PIN
-#define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 0
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
-#endif
 
 #endif
