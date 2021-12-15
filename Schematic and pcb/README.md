@@ -1,5 +1,7 @@
 # Xenophon
 
+![Alt text](..\Images\PCB_layout.png?raw=true "The PCB for the keyboard.")
+
 ## PCB
 
 Xenophon keyboard.
@@ -32,7 +34,3 @@ Atmega 32u4
 usb c connections right side
 
 usb c connector left side
-
-### Schematic teach
-
-Edit footprint (Crystal, )

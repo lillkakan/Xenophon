@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Xenopon Keyboard"
+Date "2021-12-15"
+Rev "2"
+Comp "Jesper Fasth"
 Comment1 ""
 Comment2 ""
 Comment3 ""
