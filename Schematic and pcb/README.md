@@ -1,6 +1,6 @@
 # Xenophon
 
-![Alt text](..\Images\PCB_layout.png?raw=true "The PCB for the keyboard.")
+![Alt text](../Images/PCB_layout.png?raw=true "The PCB for the keyboard.")
 
 ## PCB
 
