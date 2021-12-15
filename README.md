@@ -4,7 +4,7 @@ Xenophon is a split keyboard with a design based on the ErgoDox EZ but for less 
 
 ![Alt text](./Images/PCB.png?raw=true "The PCB for the keyboard.")
 
-### Feutures
+## Feutures
 
 ### Ortholinear design
 The keyboard feutures an ortholinear design based on the ErgoDox EZ.
