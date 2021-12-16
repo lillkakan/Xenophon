@@ -4,33 +4,32 @@
 
 ## PCB
 
-Xenophon keyboard.
+### Schematic
 
-usb c connections right side
+Feutures a usb-c connection on the left (master) side.
 
-Because I wanted the right PCB to have as few IO connectors as possible i made the desicion to place two test pins connected to the usb pins on the processor.
-The two pins can be connected to two resistors an hand soldered to a usb cable. 
-However i also made the desicion to connect the two usb pins on the left pcb aswell so that I esaly could flash the firmware to the right processor before i solder the left pcb.
+Because I wanted the right PCB to have as few IO connectors as possible i made the decision to place two pin holes connected to the USB pins on the processor.
+This made is so I could connect the USB pins on the left side with the ones on the right side and flash the right processor with the USB-C cable before i soldered the left processor.
+The two pins can also be connected to two resistors and soldered to a USB cable to flash to the processor directly.
 
-usb c connector left side
+Because I felt that the reset button i had on my first design where too big i opted to connect the RESET pins to a through hole.
 
-The usb contact on the right side of the left pcb is 
+### Components
 
+70x Cherry switches
+70x Diodes
 
-Reset connections
+1x  USB-C Receptacle
 
-based on x crystal
+2x  Atmega 32u4
+2x  16 Mhz Crystal
+2x  3.5 TRS jack
 
-### PCB teach
+5x  0.1u  Capacitor
+4x  18p   Capacitor
+2x  1u    Capacitor
+1x  4.7u  Capacitor
 
-Edit key layout
-
-> Go to keyboard-layout-genrator.
-
-## Schematic
-
-Atmega 32u4
-
-usb c connections right side
-
-usb c connector left side
+4x  10k   Ohm Resistors
+2x  22    Ohm Resistors
+2x  5.1k  Ohm Resistors
