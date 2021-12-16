@@ -16,20 +16,16 @@ Because I felt that the reset button i had on my first design where too big i op
 
 ### Components
 
-70x Cherry switches
-70x Diodes
-
-1x  USB-C Receptacle
-
-2x  Atmega 32u4
-2x  16 Mhz Crystal
-2x  3.5 TRS jack
-
-5x  0.1u  Capacitor
-4x  18p   Capacitor
-2x  1u    Capacitor
-1x  4.7u  Capacitor
-
-4x  10k   Ohm Resistors
-2x  22    Ohm Resistors
-2x  5.1k  Ohm Resistors
+- 70x Cherry switches
+- 70x Diodes
+- 1x  USB-C Receptacle
+- 2x  Atmega 32u4
+- 2x  16 Mhz Crystal
+- 2x  3.5 TRS jack
+- 5x  0.1u  Capacitor
+- 4x  18p   Capacitor
+- 2x  1u    Capacitor
+- 1x  4.7u  Capacitor
+- 4x  10k   Ohm Resistors
+- 2x  22    Ohm Resistors
+- 2x  5.1k  Ohm Resistors
