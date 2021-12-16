@@ -12,7 +12,7 @@ Because I wanted the right PCB to have as few IO connectors as possible i made t
 This made is so I could connect the USB pins on the left side with the ones on the right side and flash the right processor with the USB-C cable before i soldered the left processor.
 The two pins can also be connected to two resistors and soldered to a USB cable to flash to the processor directly.
 
-Because I felt that the reset button i had on my first design where too big i opted to connect the RESET pins to a through hole.
+Small reset buttons take up unneccesary space on the pcb i added pins for for both sides reset connection designed so that a regular cable could pull the reset down.
 
 ### Components
 
