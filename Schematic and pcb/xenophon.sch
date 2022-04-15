@@ -19,7 +19,7 @@ U 1 1 61074EAD
 P 2800 5950
 F 0 "J1" H 2907 7217 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 2907 7126 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2950 5950 50  0001 C CNN
+F 2 "XenophonFootprintLibrary:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2950 5950 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2950 5950 50  0001 C CNN
 	1    2800 5950
 	0    -1   -1   0   
@@ -52,7 +52,7 @@ U 1 1 610A346F
 P 4250 3850
 F 0 "J2" H 4232 4175 50  0000 C CNN
 F 1 "AudioJack3" H 4232 4084 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_Switronic_ST-005-G_horizontal" H 4250 3850 50  0001 C CNN
+F 2 "XenophonFootprintLibrary:Jack_3.5mm_Switronic_ST-005-G_horizontal" H 4250 3850 50  0001 C CNN
 F 3 "~" H 4250 3850 50  0001 C CNN
 	1    4250 3850
 	-1   0    0    1   
@@ -63,7 +63,7 @@ U 1 1 610A5517
 P 6900 3400
 F 0 "J3" H 6882 3725 50  0000 C CNN
 F 1 "AudioJack3" H 6882 3634 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_Switronic_ST-005-G_horizontal" H 6900 3400 50  0001 C CNN
+F 2 "XenophonFootprintLibrary:Jack_3.5mm_Switronic_ST-005-G_horizontal" H 6900 3400 50  0001 C CNN
 F 3 "~" H 6900 3400 50  0001 C CNN
 	1    6900 3400
 	1    0    0    -1  
@@ -820,10 +820,10 @@ F 3 "" H 1800 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint D+2
 U 1 1 613A0DFB
 P 7250 2450
-F 0 "TP5" V 7445 2522 50  0000 C CNN
+F 0 "D+2" V 7445 2522 50  0000 C CNN
 F 1 "TestPoint" V 7354 2522 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 7450 2450 50  0001 C CNN
 F 3 "~" H 7450 2450 50  0001 C CNN
@@ -831,10 +831,10 @@ F 3 "~" H 7450 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint D-2
 U 1 1 613A2361
 P 6900 2550
-F 0 "TP6" V 7095 2622 50  0000 C CNN
+F 0 "D-2" V 7095 2622 50  0000 C CNN
 F 1 "TestPoint" V 7004 2622 50  0000 C CNN
 F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 7100 2550 50  0001 C CNN
 F 3 "~" H 7100 2550 50  0001 C CNN
@@ -842,10 +842,10 @@ F 3 "~" H 7100 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint Ground2
 U 1 1 613AD35C
 P 6650 2750
-F 0 "TP3" H 6708 2868 50  0000 L CNN
+F 0 "Ground2" H 6708 2868 50  0000 L CNN
 F 1 "TestPoint" H 6708 2777 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 6850 2750 50  0001 C CNN
 F 3 "~" H 6850 2750 50  0001 C CNN
@@ -853,45 +853,23 @@ F 3 "~" H 6850 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint Reset2
 U 1 1 613ADD93
 P 7100 1100
-F 0 "TP4" H 7158 1218 50  0000 L CNN
+F 0 "Reset2" H 7158 1218 50  0000 L CNN
 F 1 "TestPoint" H 7158 1127 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 7300 1100 50  0001 C CNN
 F 3 "~" H 7300 1100 50  0001 C CNN
 	1    7100 1100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 613C8620
-P 2350 1050
-F 0 "TP2" H 2408 1168 50  0000 L CNN
-F 1 "TestPoint" H 2408 1077 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 2550 1050 50  0001 C CNN
-F 3 "~" H 2550 1050 50  0001 C CNN
-	1    2350 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 613C95B1
-P 1900 1000
-F 0 "TP1" H 1958 1118 50  0000 L CNN
-F 1 "TestPoint" H 1958 1027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 2100 1000 50  0001 C CNN
-F 3 "~" H 2100 1000 50  0001 C CNN
-	1    1900 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 1000 1800 1000
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint D+1
 U 1 1 6131ADEC
 P 2500 4250
-F 0 "TP8" V 2454 4438 50  0000 L CNN
+F 0 "D+1" V 2454 4438 50  0000 L CNN
 F 1 "TestPoint" V 2545 4438 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 2700 4250 50  0001 C CNN
 F 3 "~" H 2700 4250 50  0001 C CNN
@@ -899,10 +877,10 @@ F 3 "~" H 2700 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint D-1
 U 1 1 6131BCE4
 P 2300 4050
-F 0 "TP7" V 2254 4238 50  0000 L CNN
+F 0 "D-1" V 2254 4238 50  0000 L CNN
 F 1 "TestPoint" V 2345 4238 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 2500 4050 50  0001 C CNN
 F 3 "~" H 2500 4050 50  0001 C CNN
@@ -995,4 +973,26 @@ Wire Wire Line
 	3900 3600 3900 3850
 Wire Wire Line
 	8500 3650 8500 3700
+$Comp
+L Connector:TestPoint Reset1
+U 1 1 613C8620
+P 2350 1050
+F 0 "Reset1" H 2408 1168 50  0000 L CNN
+F 1 "TestPoint" H 2408 1077 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 2550 1050 50  0001 C CNN
+F 3 "~" H 2550 1050 50  0001 C CNN
+	1    2350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint Ground1
+U 1 1 613C95B1
+P 1900 1000
+F 0 "Ground1" H 1958 1118 50  0000 L CNN
+F 1 "TestPoint" H 1958 1027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 2100 1000 50  0001 C CNN
+F 3 "~" H 2100 1000 50  0001 C CNN
+	1    1900 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

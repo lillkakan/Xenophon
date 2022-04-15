@@ -2,7 +2,7 @@
 
 Xenophon is a split keyboard with a design based on the ErgoDox EZ but for less keys for the thumps and another layout for the side keys.
 
-![Alt text](./Images/xenophon_ort_no3d.png?raw=true "The PCB for the keyboard.")
+![Alt text](./Images/xenophon_keyless.png?raw=true "The PCB for the keyboard.")
 
 ## Features
 
@@ -42,5 +42,7 @@ Which is less than similar keyboards like the ErgoDox EZ.
 Keyboard layout editor: [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/)
 
 Quantum Mechanical Keyboard Firmware: [qmk_firmware](https://github.com/qmk/qmk_firmware)
+
+Parametric Mechanical Keycap Library: [KeyV2](https://github.com/rsheldiii/KeyV2)
 
 Keyboard Firmware Builder: [kbfirmware.com](https://kbfirmware.com/)

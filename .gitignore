@@ -8,4 +8,15 @@ Schematic and pcb/*.kicad_pcb-bak
 Schematic and pcb/*.kicad_sch-bak
 Schematic and pcb/*.sch-bak
 Schematic and pcb/fp-info-cache
+Schematic and pcb/fp-lib-table
 Schematic and pcb/*.net
+Schematic and pcb/svg
+Schematic and pcb/gerber
+Schematic and pcb/xenophon-backups
+
+Images/Sne
+Images/Arkiv
+Chassi/Keys/customizer.scad
+Chassi/test
+Chassi/*.stl
+Chassi/*.FCStd1
