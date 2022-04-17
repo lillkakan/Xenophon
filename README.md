@@ -41,7 +41,7 @@ Which is less than similar keyboards like the ErgoDox EZ.
 
 Quantum Mechanical Keyboard Firmware: [qmk_firmware](https://github.com/qmk/qmk_firmware)
 
-## Made with help from
+### Made with help from
 
 Keyboard layout editor: [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/)
 
