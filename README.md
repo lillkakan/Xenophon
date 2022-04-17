@@ -37,11 +37,13 @@ The chassi for the keyboard is 3D printable and is designed to be as small as po
 The total cost of the key board is around 1 300 SEK.
 Which is less than similar keyboards like the ErgoDox EZ.
 
-## Made With
-
-Keyboard layout editor: [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/)
+## Made with
 
 Quantum Mechanical Keyboard Firmware: [qmk_firmware](https://github.com/qmk/qmk_firmware)
+
+## Made with help from
+
+Keyboard layout editor: [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/)
 
 Parametric Mechanical Keycap Library: [KeyV2](https://github.com/rsheldiii/KeyV2)
 
