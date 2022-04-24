@@ -20,3 +20,4 @@ Chassi/Keys/customizer.scad
 Chassi/test
 Chassi/*.stl
 Chassi/*.FCStd1
+Chassi/base_tilted_holes.FCStd1
